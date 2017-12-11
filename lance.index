@@ -1,0 +1,41 @@
+h1{
+  color:red;
+  text-align:center;
+  font-size: 40px;
+}
+h2{
+  color:red;
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  text-align: justify;
+}
+body{
+  background-color: #e5e1ae;
+}
+#homebutton{
+  position: relative;
+  left:auto;
+  top:auto;
+}
+#contactbutton{
+  position:relative;
+  left:auto;
+  top:auto;
+}
+#titleimg{
+  float:left;
+  height:30px;
+  position:relative;
+  top:5px;
+}
+#titlebar{
+  border:solid grey 2px;
+  height: 40px;
+  position:relative;
+  background-color: grey;
+}
+.titlebar{
+  color:white;
+}
