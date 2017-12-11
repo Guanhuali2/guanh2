@@ -1,17 +1,86 @@
 
+<!DOCTYPE html>
 <html>
-  <title>
-    first website
-    </title>
-    <body>
-    <h1>guanhus's first website page</h1>
-      </body>
-      <style>
-        body{
-        background-color:green;
-          color:#fff;
-          text-align:center;
-        }
-        </style>
-</html>
+<head>
+ <meta charset="utf-8"/>
+ <title>Contact Us</title>
+ <link rel="stylesheet" type="text/css" href="hl19_mp1_myStyle.css"></link>
+ <style>
+  form{border:solid grey 2px}
+  label{
+    color: #474a4f;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  label.checkbox{
+    text-decoration: none;
+    font-weight: normal;
+  }
+  input[type=text],select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+   input[type=submit]{
+     width:100%;
+     background-color: #4CAF50;
+     color:white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+   }
+    input[type=submit]:hover{
+      background-color: #45a049;
+    }
+ </style>
+</head>
 
+<body>
+ <div id="titlebar">
+   <img id="titleimg" src=https://www.w3schools.com/html/html5.gif alt="gif1"></img>
+   <a id="homebutton" class="titlebar" href="hl19_mp1_index.html">Home</a>
+   <a id="contactbutton" class="titlebar" href="hl19_mp1_contact.html">Contact Us</a>
+ </div>
+
+ <h1>Contact us</h1>
+ <p>Sed bibendum nec diam ut sodales. Sed sit amet dolor ut quam interdum posuere
+    vitae sit amet elit. Integer nec placerat leo. Duis venenatis justo vel hendrerit
+    rutrum. Maecenas venenatis non purus in tristique. Phasellus turpis mauris,
+    volutpat vitae massa eget, efficitur finibus lorem. Etiam eget efficitur augue,
+    eget maximus tellus. Cras blandit efficitur lorem.
+ </p>
+ <hr />
+
+ <form action="http://www.mysite.com/form.php" method="get">
+   <label for="name">Name</label><br />
+   <input type="text" name="name" placeholder="Your name..." /><br />
+   <label for="email">Email</label><br />
+   <input type="text" name="email" placeholder="Your email..." /><br />
+   <label for="name">Year in School</label><br />
+   <select name="year">
+     <option value="fresh">Freshman</option>
+       <option value="soph">Sophomore</option>
+         <option value="jun">Junior</option>
+           <option value="sen">Senior</option>
+   </select><br />
+   <label for="areas of interest">Areas of Interest</label><br />
+   <label class="checkbox" name="interest" >Computer Science</label>
+     <input type="checkbox" name="interest" value="cs">
+   <label class="checkbox" name="interest" >Business</label>
+     <input type="checkbox" name="interest" value="bs">
+   <label class="checkbox" name="interest" >Accounting</label>
+     <input type="checkbox" name="interest" value="acct">
+   <label class="checkbox" name="interest" >Philosophy</label>
+     <input type="checkbox" name="interest" value="phil">
+     <br />
+     <input type="submit" value="submit">
+ </form>
+ </body>
+</html>
