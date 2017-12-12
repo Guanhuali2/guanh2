@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Guanhua's resume</title>
+	</head>
+
+	<body background = "https://www.planwallpaper.com/static/images/violet-vector-leaves-circles-backgrounds-for-powerpoint_PdfkI4q.jpg">
+		<br />
+		<center>
+			<table style="background-color:rgba(265,265,265, .7)" width="80%">
+				<tr>
+					<td>
+						<br />
+						<center>		
+							<embed src="https://github.com/Guanhuali2/guanh2/blob/master/resume%20(4).pdf" width ="90%" height="800"/>
+							<p><a href="https://guanhuali2.github.io/guanh2/"><img src="home.png" width="40" height="40"></img></a></p>	
+						</center>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+</html>
